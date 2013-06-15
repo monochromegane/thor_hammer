@@ -1,0 +1,8 @@
+Description:
+    This generates a controller class with URLs like `/:thor(/:subcommand(/:args))`.
+
+Example:
+    `rails generate thor_hammer:api thor_cli::class_name api_path`
+
+    This will create:
+        Thor api controller with URLs like /api_path(/:subcommand(/:args))
